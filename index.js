@@ -7,6 +7,7 @@ import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken";
 import {auth} from "./auth.js"
 import { ObjectId } from "mongodb";
+
 dotenv.config();
 const app = express();
 const MONGO_URL = process.env.MONGO_URL;
